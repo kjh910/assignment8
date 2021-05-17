@@ -4,7 +4,7 @@ import { IsString, Min, Max, IsNumber } from 'class-validator';
 import { Column, Entity, OneToMany } from 'typeorm';
 import { CoreEntity } from './core.entity';
 
-@Entity()
+@Entity('Podcast')
 @ObjectType()
 export class Podcast extends CoreEntity {
   @Column()

@@ -4,7 +4,7 @@ import { Column, Entity, ManyToOne, RelationId } from 'typeorm';
 import { CoreEntity } from './core.entity';
 import { Podcast } from './podcast.entity';
 
-@Entity()
+@Entity('Episode')
 @ObjectType()
 export class Episode extends CoreEntity {
   @Column()

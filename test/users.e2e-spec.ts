@@ -34,7 +34,7 @@ describe('UserModule (e2e)', () => {
   });
 
   afterAll(async () => {
-    await getConnection().dropDatabase();
+    // await getConnection().dropDatabase()
     app.close();
   });
 
