@@ -469,8 +469,8 @@ describe('PodcastsModule (e2e)', () => {
                 updateEpisode(input: {
                     podcastId:${podcastId},
                     episodeId:${episodeId},
-                    title:"${updatePodcast.title}",
-                    category:"${updatePodcast.category}",
+                    title:"${updateEpisode.title}",
+                    category:"${updateEpisode.category}",
                 }) {
                   ok
                   error
