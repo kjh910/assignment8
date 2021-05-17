@@ -53,6 +53,7 @@ describe('PodcastsModule (e2e)', () => {
     });
   
     afterAll(async () => {
+      // when I set this, Error of 'not such table' is occurred  in sqllite
       // await getConnection().dropDatabase()
       app.close();
     });
